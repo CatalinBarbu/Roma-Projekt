@@ -6,9 +6,132 @@
   font-family: "Tangerine";
   src: url("../fonts/Tangerine/Tangerine-Regular.ttf");
 }
-
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+header {
+  background-image: url(../img/cleo-topper.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  padding: 0 10vw;
+}
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 50px;
+}
+.logo img {
+  width: 25px;
+}
+.logo p {
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 3px solid #e7bc0e;
+}
+.title {
+  color: white;
+  font-family: "Roboto";
+  font-size: 3rem;
+  width: 330px;
+  margin: 35vh 0;
+}
+.scroll {
+  color: #e7bc0e;
+  font-size: 5rem;
+  font-family: "Tangerine";
+  font-weight: bold;
+  padding: 0 0 50vh 1vw;
+  letter-spacing: 3px;
+}
+.scroll span {
+  font-family: "Roboto";
+  font-size: 2.3rem;
+  padding-left: 15px;
+}
+.textCenter {
+  color: #6bc1a3;
+  font-size: 3rem;
+  width: 80%;
+  text-align: left;
+  padding: 0 0 50vh 0;
+  margin: 0 auto;
+}
+.textCenter span {
+  color: white;
+}
+.people {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50vh;
+}
+.people img {
+  width: 250px;
+  margin-right: auto;
+}
+.million {
+  color: #e7bc0e;
+  font-size: 10rem;
+  font-family: "Roboto";
+}
+.domestic {
+  color: #e7bc0e;
+  font-size: 2.5rem;
+  font-family: "Roboto";
+}
+.domestic span {
+  color: white;
+  background-color: darkslategray;
+  opacity: 0.9;
+}
+.money img {
+  width: 250px;
+}
+.payment {
+  color: #cb91b6;
+  font-size: 3.5rem;
+  font-family: "Roboto";
+  font-weight: bold;
+  width: 80%;
+  padding-bottom: 50vh;
+}
+.payment span {
+  color: white;
+  background-color: darkslategray;
+}
+.payment p:last-of-type {
+  font-size: 12rem;
+}
+.procent {
+  padding-bottom: 30vh;
+}
+.procent p:first-of-type {
+  font-size: 12rem;
+  font-family: "Roboto";
+  color: #6bc1a3;
+  padding: 5vh 0;
+}
+.procent p:last-of-type {
+  font-size: 3rem;
+  font-family: "Roboto";
+  color: #6bc1a3;
+}
+.bgdP {
+  background-color: darkslategray;
+  color: white;
 }
